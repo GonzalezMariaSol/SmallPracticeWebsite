@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+}
+
+header{
+    height: 102px;
+    width: 100%;
+    top: 0;
+    background-color:rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    position: fixed;                /*deja la barra superior pegada en esa postura mientras bajas con el mouse*/
+    justify-content: space-between;   /*da espacio entre cada item. CREO*/
+    z-index: 1;                 /*funciona para indicar el orden de las capas, en este caso el 1 indicaria que este nav superior
+                                debe quedar por arriba de todo lo que le siga y no superponerlo*/
+}
+
+.logo{
+    display: flex;   /*porque con esto automaticamente se centra?
+                     sin necesidad de que yo tenga que poner JustifyContentCenter?*/
+}
+
+.logo img{
+    height: 70px;
+    margin-left: 100px;
+}
+
+.inicio{
+    margin-right: 100px;
+}
+
+nav .nav-link{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;                      /*saca el subrrayado de un A HREF*/
+    color: rgb(0, 0, 0);
+    padding: 15px;  
+}
+
+.invitacion{
+    width: 100%;
+    height: 703.10px;    
+}
+
+.codeando{
+    margin-top: 102px;
+    width: 100%;
+    height: 600px;
+}
+
+h1{
+    position: relative;
+    top:-10em;
+    text-align: center;
+    color: white;
+}
+
+button{
+    background-color: palevioletred;
+    border: none;
+    border-radius: 0.2em;
+    height: 30px;
+    width: 130px;
+    position: relative;
+    margin-left: 42em;
+    bottom: 33em;
+}
